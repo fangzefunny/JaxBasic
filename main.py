@@ -48,7 +48,7 @@ def get_MNIST():
                                 ))
     data = (mnist_data.data.type( torch.FloatTensor) / 255).bernoulli()
     label = (mnist_data.targets.type( torch.FloatTensor) / 255).bernoulli()
-    return data, label 
+    return data.numpy(), label.numpy()
 
 
 if __name__ == '__main__':
