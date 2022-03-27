@@ -1,4 +1,4 @@
-# JaxBasic
+# Get a basic understanding the JAX package
 Get a basic understanding of the JAX package. Implement on the MNIST data set. 
 
 # package installation
